@@ -1,0 +1,7 @@
+{
+  "templateDir": "./backend/mvc/view",
+  "staticDir": "./frontend",
+  "httpPort": 7666,
+  "httpReadTimeout": 5000,
+  "httpWriteTimeout": 5000
+}

@@ -1,0 +1,18 @@
+{{define "header"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {{if .}}
+            {{.}}
+        {{else }}
+            go-bgm
+        {{end}}
+    </title>
+    <script type="text/javascript" src="/static/js/rem.js"></script>
+    <script type="text/javascript" src="/static/js/bgm.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/css/bgm.css">
+</head>
+<body>
+{{end}}
